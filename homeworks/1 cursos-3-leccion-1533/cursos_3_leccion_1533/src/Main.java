@@ -1,13 +1,14 @@
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-
+        /// ----
+        // Ejercicio 1 cursos/3/leccion/1533
+        System.out.println("Primer ejercicio: https://campus.open-bootcamp.com/cursos/3/leccion/1533");
         // Primera parte
-        System.out.println(funSuma(2, 2, 2));
-
+        System.out.println("Resultado de la funcion: " + funSuma(2, 2, 2));
         // Segunda parte:
         Coche objMicoche = new Coche();
-        System.out.println("Numero de puestas: " + objMicoche.numPuertas);
+        System.out.println("Numero de puestas inicial: " + objMicoche.numPuertas);
         objMicoche.incrementarNumPuertas();
         objMicoche.incrementarNumPuertas();
         objMicoche.incrementarNumPuertas();
@@ -17,7 +18,6 @@ public class Main {
 
     public static int funSuma(int a, int b, int c) {
         return a + b + c;
-
     }
 }
 
