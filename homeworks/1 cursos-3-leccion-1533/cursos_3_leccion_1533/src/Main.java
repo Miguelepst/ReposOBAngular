@@ -8,11 +8,11 @@ public class Main {
         System.out.println("Resultado de la funcion: " + funSuma(2, 2, 2));
         // Segunda parte:
         Coche objMicoche = new Coche();
-        System.out.println("Numero de puestas inicial: " + objMicoche.numPuertas);
+        System.out.println("Numero de puertas inicial: " + objMicoche.numPuertas);
         objMicoche.incrementarNumPuertas();
         objMicoche.incrementarNumPuertas();
         objMicoche.incrementarNumPuertas();
-        System.out.println("Numero de puestas: " + objMicoche.numPuertas);
+        System.out.println("Numero de puertas: " + objMicoche.numPuertas);
 
     }
 

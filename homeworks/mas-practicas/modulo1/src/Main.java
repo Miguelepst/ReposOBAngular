@@ -1,24 +1,11 @@
-
 public class Main {
+
     public static void main(String[] args) {
 
-        /// ----
-        // Ejercicio 1 cursos/3/leccion/1533
-        System.out.println("Primer ejercicio: https://campus.open-bootcamp.com/cursos/3/leccion/1533");
-        // Primera parte
-        System.out.println("Resultado de la funcion: " + funSuma(2, 2, 2));
-        // Segunda parte:
-        Coche objMicoche = new Coche();
-        System.out.println("Numero de puestas inicial: " + objMicoche.numPuertas);
-        objMicoche.incrementarNumPuertas();
-        objMicoche.incrementarNumPuertas();
-        objMicoche.incrementarNumPuertas();
-        System.out.println("Numero de puestas: " + objMicoche.numPuertas);
+        Ejecicio1 ej1 = new Ejecicio1();
+        ej1.MetodoMain();
 
-        // Fin: ejercicio 1 cursos/3/leccion/1533
-
-        //
-        // ## Siguientes estudios
+        // ## Mas practicas
         ///// ----------------------------------------------------------------
         // 4.1: Condicionales
         // https://campus.open-bootcamp.com/cursos/3/leccion/2210
@@ -32,9 +19,6 @@ public class Main {
 
     }
 
-    public static int funSuma(int a, int b, int c) {
-        return a + b + c;
-    }
 }
 
 class Coche {
@@ -47,6 +31,37 @@ class Coche {
     public void incrementarNumPuertas() {
         numPuertas++;
     }
+}
+
+// class ejercicio1:
+class Ejecicio1 {
+
+    Ejecicio1() {
+    }
+
+    public void MetodoMain() {
+
+        /// ----
+        // Ejercicio 1 cursos/3/leccion/1533
+        System.out.println("Primer ejercicio: https://campus.open-bootcamp.com/cursos/3/leccion/1533");
+        // Primera parte
+        System.out.println("Resultado de la funcion: " + funSuma(2, 2, 2));
+        // Segunda parte:
+        Coche objMicoche = new Coche();
+        System.out.println("Numero de puertas inicial: " + objMicoche.numPuertas);
+        objMicoche.incrementarNumPuertas();
+        objMicoche.incrementarNumPuertas();
+        objMicoche.incrementarNumPuertas();
+        System.out.println("Numero de puertas final: " + objMicoche.numPuertas);
+
+        // Fin: ejercicio 1 cursos/3/leccion/1533
+
+    }
+
+    public static int funSuma(int a, int b, int c) {
+        return a + b + c;
+    }
+
 }
 
 //// ------ Clases de estudio
