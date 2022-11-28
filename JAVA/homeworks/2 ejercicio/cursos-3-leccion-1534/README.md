@@ -1,4 +1,4 @@
-Ejercicios tema 4 (cursos/3/leccion/1534)
+Ejercicio 2: tema 4 (cursos/3/leccion/1534)
 link: https://campus.open-bootcamp.com/cursos/3/leccion/1534
 
 Ejercicios tema 4
