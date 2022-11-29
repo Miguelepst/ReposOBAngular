@@ -6,10 +6,21 @@ public class App {
         cliente.nombre = "Miguel";
         cliente.edad = 35;
         cliente.telefono = "+57 312 487 2877";
-
+        System.out.println("Informacion del cliente:");
         System.out.println("Nombre: " + cliente.nombre);
         System.out.println("Edad: " + cliente.edad);
         System.out.println("Telefono: " + cliente.telefono);
+
+        Trabajador trabajador = new Trabajador();
+        trabajador.nombre = "Oscar";
+        trabajador.edad = 35;
+        trabajador.telefono = "+57 312 487 4353";
+
+        System.out.println("Informacion del trabajador:");
+        System.out.println("Nombre: " + trabajador.nombre);
+        System.out.println("Edad: " + trabajador.edad);
+        System.out.println("Telefono: " + trabajador.telefono);
+
     }
 }
 
@@ -22,6 +33,11 @@ class Persona {
 
 class Cliente extends Persona {
     int credito;
+}
+
+class Trabajador extends Persona {
+    int salario;
+
 }
 
 /*
