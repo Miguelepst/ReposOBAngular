@@ -3,7 +3,7 @@ public class App {
         System.out.println("Ejercicios tema 8");
         Persona persona = new Persona();
         persona.setNombre("Miguel");
-        persona.setdad(43);
+        persona.setEdad(43);
         persona.setTelefono("+57 312 487 2877");
         System.out.println("Nombre: " + persona.getNombre());
         System.out.println("Nombre: " + persona.getEdad());
@@ -16,7 +16,7 @@ class Persona {
     private String nombre;
     private String telefeno;
 
-    public void setdad(int edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 
