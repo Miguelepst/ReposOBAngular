@@ -15,11 +15,13 @@ public class App {
         trabajador.nombre = "Oscar";
         trabajador.edad = 35;
         trabajador.telefono = "+57 312 487 4353";
+        trabajador.salario = 32600;
 
         System.out.println("Informacion del trabajador:");
         System.out.println("Nombre: " + trabajador.nombre);
         System.out.println("Edad: " + trabajador.edad);
         System.out.println("Telefono: " + trabajador.telefono);
+        System.out.println("Salario: " + trabajador.salario);
 
     }
 }
