@@ -1,0 +1,70 @@
+.colores {
+    color: red;
+}
+
+.colorHexadecimal {
+    color:#0F5257 ;
+}
+
+.colorRGB {
+    color: rgb(100, 0, 200);
+}
+
+/* para jugar con la transparencia que quiera que tenga */
+.colorRGBa {
+    color: rgba(10, 10, 10, 0.3);
+}/* Se usa cuando estas trabajando con backgroungs */
+
+
+/* colores de fondo */
+/* Se pueden utilizar todos los colores vistos rgb rgba hexadecimal, los por defecto */
+.fondo {
+    background-color: aquamarine ;
+}
+
+
+/* imagen de fondo  */
+.fondoImagen {
+   background-image: url("palm-leaves-shadows-on-sandy-wall.jpg")  ;
+   /* background-position: center center; */
+   background-position: left bottom ;
+}
+
+
+
+/* imagen de fondo  */
+.fondoImagenRgba {
+    /* background-image: url("palm-leaves-shadows-on-sandy-wall.jpg")  ;  */
+   background-color: rgba(20, 20, 20, 0.2);
+}
+
+/* Tamaños */
+
+.ancho {
+    background-color: aquamarine;
+width:50px;
+}
+
+.alto {
+    background-color: blueviolet;
+height:150px;
+}
+
+.tarjeta {
+    border-style:solid;
+    border-color: rgb(150,150, 150);
+    padding: 5px;
+    border-width: 5px;
+    margin: 5px;
+    
+    /* border-top: none; */
+
+}
+
+.encabezadoTarjeta {
+
+}
+
+descripcionTarjeta {
+
+}

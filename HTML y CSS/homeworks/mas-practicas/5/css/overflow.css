@@ -1,0 +1,111 @@
+/* 5.8: Trabajando la opacidad y galerías de imágenes
+Vídeo 9min de duración aprox.
+https://campus.open-bootcamp.com/cursos/12/leccion/1935 */
+
+
+/* eliminar el padding y el margin que viene por defecto en todo el html */
+* {     
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-principal {
+    width:100vw;
+    opacity: 0.4 ;          /* su valor:  0-1 */
+}
+.imagen-principal:hover {       /* muy usado en las imagenes */
+    opacity: 1 ;          
+}
+
+
+.imagen-galeria
+ {
+    width: 150px;
+
+}
+
+.imagen-galeria:hover
+ {
+    opacity: 0.4 ;          
+    cursor: pointer;
+
+}
+
+.galeria
+ {
+    display: flex;      /* vemos como todo se homagenisa pero toca hacer scrol x */
+    flex-wrap: wrap;     /* eliminar scroll horinzontal */
+    gap: 10px; /* espacio entre ellas */
+
+
+}
+
+
+
+
+
+
+
+
+
+/* 5.7: Overflow
+Vídeo 10min de duración aprox.
+https://campus.open-bootcamp.com/cursos/12/leccion/1934  */
+.contenedor {
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+ 
+
+}
+
+.contenedor-hidden {
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+ }
+
+.contenedor-scroll {
+        background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow:scroll;
+    
+
+}
+
+
+.contenedor-visible {
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+
+}
+
+.contenedor-auto {
+        background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow:auto;
+
+}
+
+
+.contenedor-scroll-x {
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    
+
+}

@@ -1,0 +1,30 @@
+/* resetear los padin y margin que vienen por defecto */
+* {
+padding: 0;
+margin: 0 ;
+}
+
+.video {
+    width: 100vw; /* Que tenga un tamaño del 100x100 de la pantalla en ancho */
+    height: 100vh;/* Que tenga un tamaño del 100x100 de la pantalla en alto */
+    object-fit: cover; /* le estou diciendo que no se comprima, que rrellaene todo ese tamaño */
+    position: fixed; /* posicion fija: esto ya es nuestro baground Video */
+
+}
+
+.header {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font-family: Helvetica;
+    color: white;
+    
+}

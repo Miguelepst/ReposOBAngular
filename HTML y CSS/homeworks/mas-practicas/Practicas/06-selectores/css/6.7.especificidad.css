@@ -1,0 +1,120 @@
+/* 
+otro ejemplo:
+
+la manera de superponer en especifidad a cualquier que sea otro elemento
+la super especifidad maxima seria:
+*/
+
+h1#h1-id\ h1-otroid.h1-clase{ 
+    color: green !important;       
+}
+
+h1 {
+    color: red;
+}
+
+
+p {
+    color: blue;
+} 
+
+
+
+
+
+/* 
+otro ejemplo:  
+
+los estilos que se definen dentro de la etiqueta en linea 
+manejan el mayor numero de especifidad: 
+<h1 id="h1-id" class="h1-clase" style="color:gray ;">Este es el titulo</h1>
+*/
+
+
+
+/* como aumentar la especifidad de un elemento */
+
+/* h1#h1-id\ h1-otroid.h1-clase{*/      /* ok especifidad alta */
+ /* especifidad aumentada a: (1,1,1), se van sumando */
+/* h1#h1-id\ h1-otroid.h1-clase{ 
+    color: green;       
+}
+
+h1 {
+    color: red;
+}
+
+
+p {
+    color: blue;
+} 
+ */
+
+
+
+
+/* Realmente hay tres especifidades  */
+
+/*ID        (1,0,0) */
+/*          (0,2,0) */
+/*CLASS     (0,1,0) */
+/*ETIQUETA  (0,0,1) */
+/*          (0,0,0) */
+
+/* el indice superior a todos los demas es el que prevalece. */
+
+
+/* Ejemplo 3 selector de ID, especifidad mayor (1,0,0) */
+
+/* #h1-id{
+    color: green;       
+}
+
+h1 {
+    color: red;
+}
+
+
+p {
+    color: blue;
+} 
+ */
+
+
+/* Ejemplo2: selector de clase*/
+/* mayor especifidad las clases (0,1,0), predomina que (0,0,1) etiqueta */
+/* predomina el valor de la clase por especifidad */
+/* .h1-clase{
+    color: green;       
+}
+
+h1 {
+    color: red;
+}
+
+
+p {
+    color: blue;
+}  */
+
+
+
+/* ejemplo 1: */
+
+/* .h1-clase{
+    color: green;
+} */
+
+/* igualdad de dos condiciones sobre escribe el segundo  */
+/* elementos de igual especifidad: (0,0,1) */
+/* h1 {   
+    color: green;
+} */
+
+
+/* 
+p {
+    color: blue;
+} 
+ */
+/* ejemplo 1: */

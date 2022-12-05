@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,200&display=swap');
+
+html {
+    /* font-family:'Courier New', Courier, monospace ; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    font-style: italic;
+}
+
+
+
+/* @font-face {
+
+font-family: FontName;
+
+src: url(FontLocationOnServer);
+
+}
+ */
+/* @font-face {
+    font-family: 'MyWebFont';
+    src: url('webfont.eot'); 
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), 
+         url('webfont.woff') format('woff'), 
+         url('webfont.ttf')  format('truetype'), 
+         url('webfont.svg#svgFontName') format('svg'); 
+}
+ */

@@ -1,0 +1,28 @@
+.div-1, .div-2  {
+    background-color: red;
+    /* display: block; */     /* pordefecto tiene display block */
+
+}
+
+.img {
+    width: 5rem;
+    height: 5rem;
+/* display: inline-block; */ /* Por defecto tiene display inline-block  */
+
+}
+
+.span-1  {
+    background-color: aquamarine;
+    /* display: inline; */  /* por defecto display inline */
+    float: right;
+
+}
+
+.span-2  {
+    background-color: aquamarine;
+    /* display: inline; */  /* por defecto display inline */
+        float: left;
+
+}
+
+ 

@@ -1,0 +1,75 @@
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* se puede acceder a los elementos por medio de sus atributos 
+en este ejemplo es el atributo type, pero pueden ser otros tambien */
+.input[type="password"] {
+    color: red;
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 1px solid #c5bdbd;
+    outline: none;
+    padding: 5px;
+    color:  #5f5f5f;
+}
+
+.input-moderno:focus {
+    border-bottom: 1px solid #5f5f5f;
+}
+
+.input-moderno::placeholder {
+    color: #c2c2c2;
+
+}
+
+.input-background {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.input-background::placeholder {
+    color: #c2c2c2;
+ }
+
+
+ 
+ .input-search {
+    background-color: rgb(201, 208, 205);
+    border: none;
+    border-radius: 9px;
+    padding: 10px;
+    margin: 10px;
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 5px;
+    padding-left: 25px;
+  
+}
+
+.descripcion {
+    /* resize: both; */
+    /*  resize: horizontal; */
+    resize: none;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    background-color: #ccc;
+}
+
+
+ /* Se puede trabajar con un monton de propiedades  */
+ /* Que en el momento no la vamos a ver todas */

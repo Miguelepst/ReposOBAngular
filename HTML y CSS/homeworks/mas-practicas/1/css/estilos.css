@@ -1,0 +1,93 @@
+
+
+.h1_2 {
+    color: chartreuse;
+
+}/* ej: selector class */
+
+h1.h1_4 {     /* Solo los <p> parrafos que tengan un este class cambien de estilo */
+    color: rgb(228, 51, 178);
+
+}/* ej: selector class */
+
+
+
+#h1_3 {  /* Todos los textos que tengan este ID cambie de estilo */
+    color:gray ;
+
+}/* ej: selector ID */
+
+
+p#h1_1 {  /* Solo los <p> parrafos que tengan un este ID cambien de estilo */
+    color: darkgoldenrod;
+
+}/* ej: selector ID */
+
+
+
+
+
+h1 {                /* Referencia a etiquetas */
+    color: blue;
+    font-size:50px;
+    color: blueviolet; /*el ultimo, sobre escribe al anterior, es quien queda*/
+} /* Esto es un camoentario, estoy probando los colores de H1 */
+
+p {
+    color: red;
+
+}
+
+
+* {     /* Aplicarle estilo a todos los elementos */
+    color: brown;
+}
+
+*.AAA    /* aplicarle estilo a todos los elementos de la clase  */
+{
+    color: rgb(88, 17, 194);
+}
+
+
+* h4 {
+    color: gray;
+}
+
+.warning {
+    color: red;
+}
+
+
+*.warning {         /* Cualquier elemento que tenga warning ponerle color rojo */
+    color: red;
+}
+
+
+/* no esta ma, pero la forma mas abreviada es con el coma: ,  */
+/* ejeplo: 
+.autor, .ubicacion,  .fecha, #id_xxx, h1  {
+text-decoration:underline ;
+}
+*/
+.autor {
+text-decoration:underline ;
+}
+
+.ubicacion {
+text-decoration:underline ;
+}
+
+.fecha
+{
+text-decoration:underline ;
+}
+
+/* no esta ma, pero la forma mas abreviada es con el coma: ,  */
+/* <p>Forma abreviada: Afectar a diferentes elementos con un mismo estilo */
+
+.autor1, .ubicacion1,  .fecha1, #h3_a, h6  {
+text-decoration:underline ;
+color: cornflowerblue;
+}
+
+

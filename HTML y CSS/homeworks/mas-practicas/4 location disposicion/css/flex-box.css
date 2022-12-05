@@ -1,0 +1,39 @@
+
+.flex {
+    display: flex;
+    background-color: yellow;
+    height: 300px;
+    /* justify-content: center; */
+    /* justify-content:space-between;  */
+    justify-content:space-around; 
+    /* flex-wrap: wrap;  */           /* evitar el redireccionamiento segun medida dada */
+    /* align-items: stretch; */     /* por defecto se estande al tamaño del contenedor */
+    /* align-items: center; */
+    /* align-items: flex-start;   */      /* arriba de todo */
+    /* align-items: flex-end;   */      /* abajo de todo */
+    align-items: center;   
+    /* flex-direction: row;   */  /* valor por defecto */
+    /* flex-direction: row-reverse;  */ /* renderiza todo alrevea de derecha a izquierda */
+    flex-direction: column ; /* invierte los ejes X y Y */
+}
+
+.contenido1 {
+    background-color: white;
+    /* height: 200px; */                /* align-items: stretch; */
+    width: 100px;
+    border: 1px solid blue;
+    
+}
+
+.contenido2 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido3 {
+    background-color: rgb(133, 91, 91);
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}

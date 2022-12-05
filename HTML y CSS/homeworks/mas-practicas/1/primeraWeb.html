@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Practicas HTML</title>
+    <!-- Importando un eestilo local -->
+
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+
+    <!-- Importando un eestilo local -->
+
+    <!-- importando un estilo remoto  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <!-- importando un estilo remoto  -->
+
+    <!-- creando un estilo dentro del mismo archivo HTML -->
+
+    <style>
+        html {
+            padding: 15px;
+        }
+
+        p#p123 {
+            color: brown;
+        }
+    </style>
+
+
+    <!-- creando un estilo dentro del mismo archivo HTML -->
+
+
+</head>
+
+<body>
+
+    <div>
+        <p>La mejor manera de hacerlo es atravez de una hoja, archivo HTML,
+            evita que se ensucie el contenido HTML con CSS
+            y acceder a ellos por clase o por id
+        </p>
+
+        <p>Estilos Inline (estilos alineados), Podemos definir los estilos directamente desde el selector, de hecho es
+            un atributo, style="
+            " </p>
+
+        <p>podriamos empesar a trabajar con los estilos que nos propone un tercero, ejemplo:
+            https://purecss.io/ </p>
+
+        <p>
+            nos vamos a su documentacion:
+            para poder crear botones de su estilo cual es el codigo requerido
+        </p>
+        <p>Esto es un boton de del estilo vista purecss</p>
+        <a class="pure-button" href="#">A Pure Button</a>
+        <button class="pure-button">A Pure Button</button>
+
+        <button style="padding: 10px; border: none; border-radius: 10px;  ">Boton personalizado </button>
+        <p>Podemos definir los estilos directamente desde el selector, de hecho es un atributo, style=" " </p>
+
+
+        <h1>4.6: Las tres formas de insertar estilos</h1>
+        <p>
+            Hoha de estilos interna dentro del head: link rel="stylesheet" href="css/estilos.css">
+        </p>
+        <p>Vemos que nos ha quitado el margen</p>
+
+        <p>con la etiqueta dentro del head: style> p#p123 {
+            color: brown;
+            } /style>
+        </p>
+
+        <p id="p123">Color Brown P</p>
+
+        <p>Importar un stilo de una URL, dentro del head </p>
+
+
+    </div>
+
+    <hr>
+
+    <div>
+
+        <p>Forma abreviada: Afectar a diferentes elementos con un mismo estilo</p>
+        <div>
+            <p class="autor1">Autor: Gorka Villar</p>
+            <p class="fecha1">Fecha: 21/03/2022</p>
+            <p class="ubicacion1">Publicacion: Madrid</p>
+            <h6>H6</h6>
+            <h3 id="h3_a">ID H3</h3>
+
+        </div>
+
+
+
+        <div>
+            <p class="autor">Autor: Gorka Villar</p>
+            <p class="fecha">Fecha: 21/03/2022</p>
+            <p class="ubicacion">Publicacion: Madrid</p>
+
+        </div>
+
+
+        <hr>
+        <p>Estilo Warning, en utilidades del selector universal </p>
+        <p class="warning"> Peligro </p>
+
+        <button class="warning">Boton de peligro</button>
+        <p class="warning">Cualquier elemento con warning</p>
+
+        <h1 id="h1_1" class="warning">Ejemplo de ID aplicandole clas warning ID:h1_1 </h1>
+        <hr>
+
+
+
+        <p>A todos los elementos H4 que no tengan id o clase aplicar estilo *H4{ color: gray }</p>
+        <h4>Todos los elementos sin ID y sin class tipo H4</h4>
+        <h4>Todos los elementos sin ID y sin class tipo H4 </h4>
+
+        <p>A todos los elementos aplicar estilo * { }</p>
+        <h3>Todos los elementos sin ID y sin class H3</h3>
+        <h6>Todos los elementos sin ID y sin class H6 </h6>
+
+        <p>A todos los elementos de la clase AAA aplicar estilo *.AAA { }</p>
+        <h3 class="AAA">AAA </h3>
+        <h4 class="AAA">AAA </h4>
+
+
+
+
+        <p>Selector Class</p>
+        <h1 class="h1_2">Ejemplo de selector con clase: h1_2, selector .h1_2 </h1>
+
+        <span class="h1_2">span, Si cambia estilo asi no sea de igual tipo por la class h1_2, selector .h1_2 </span>
+        <br>
+
+
+
+
+        <h1 class="h1_4">Si cambia el tipo por ser etiqueta del mismo tipo H1_4, selector h1.h1_4 </h1>
+        <span class="h1_4">span, No cambia estilo no es igual tipo, class H1_4, selector h1.h1_4 </span>
+
+
+        <p>Selectro ID</p>
+        <h1 id="h1_1">Ejemplo de selector con ID:h1_1 </h1>
+
+        <span id="h1_2">span, No cambia estilo no es de igual tipo class h1_2 </span>
+        <br>
+        <span id="h1_3">span, Si cambia estilo asi no sea de igual tipo por ID h1_3 </span>
+        <p>Trabajando con CSS</p>
+        <h1>Cambiar el color de un H1></h1>
+        <p>Parrafos fe color rojo p></p>
+
+    </div> <!-- Trabajando con CSS introduccion -->
+    <!-- 4.4: Introduccion a las hojas de estilo -->
+
+
+    <div>
+        <p>Imagen</p>
+        <img src="imagenes/REST API.jpg" alt="Api REST" width="466" height="274" />
+        <p>Imagen remota</p>
+        <img src="https://media.revistagq.com/photos/61cdd0f759ab05088d9a51c7/master/w_1600%2Cc_limit/6BDB4FF4-A0E9-4CB4-9BAE-97206B7AD05E.jpeg"
+            alt="Moto gama alta" width="466" height="274" />
+
+
+        <p>Video</p>
+        <video width="300" height="300" controls autoplay muted loop>
+            <source src="/multimedia/20221128_095908.mp4" type="video/mp4" />
+        </video>
+
+        <p>Audio</p>
+        <audio muted autoplay loop controls>
+            <source src="multimedia/lectura2 bandwitdth.mp3" type="audio/mp3">
+
+        </audio>
+
+
+    </div><!-- 3.5: Imágenes  "Multimedia con HTML" -->
+
+    <p>Tabla</p>
+    <div>
+
+        <table border="1">
+            <tr>
+                <th>Persona</th><!-- <th> Table header -->
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr><!-- <tr> Table Row (fila de tabla) -->
+            <tr>
+                <td>Maria</td> <!-- <td> Table data -->
+                <td>9 -13</td>
+                <td>9 -13</td>
+                <td>9 -13</td>
+                <td>9 -13</td>
+                <td>9 -13</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+
+            </tr>
+            <tr>
+                <td>Iñigo</td> <!-- <td> Table data -->
+                <td>9 -13</td>
+                <td>9 -13</td>
+                <td>Descanso</td>
+                <td>9 -13</td>
+                <td>9 -13</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+
+            </tr>
+
+        </table>
+
+
+
+    </div><!-- 2.6: Tablas en HTML -->
+    <!-- https://campus.open-bootcamp.com/cursos/12/leccion/1921  -->
+
+    <p>Formulario</p>
+    <div>
+        <form action="resultados.html" method="GET">
+            <div>
+                <label for="nombreusuario">Nombre de usuario </label>
+                <input type="text" name="nombredeusuario" required id="nombredeusuario">
+            </div>
+            <br>
+
+
+
+            <div>
+                <label for="edadusuario">Edad de usuario </label>
+                <input type="number" name="edadusuario" required id="edadusuario" min="0" max="200" step="5">
+            </div>
+            <br>
+
+            <div>
+                <label for="nacimiento">Cual es tu fecha de nacimiento </label>
+                <input type="date" name="nacimiento" required id="nacimiento">
+            </div>
+            <br>
+
+
+            <div>
+                <label for="emailusuario">Cual es tu email </label>
+                <input type="email" name="emailusuario" required id="emailusuario">
+            </div>
+            <br>
+            <div>
+                <label for="comentarios">Comentario</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="password">Contraseña</label>
+                <input name="password" type="password" id="password" required>
+            </div>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div> <!-- Formularios -->
+
+
+
+
+
+    <!-- Etiquetas mas usadas -->
+    <p>Etiquetas mas usada</p>
+    <div>
+        <h1>Emcabezado </h1>
+        <p>Parrafo </p>
+        <span>bloques de texto que no son parrafos </span>
+        <a href="https://www.google.con">link</a>
+        <a href="primeraWeb.html">link interno </a>
+
+        <div>Order list
+            <ol>
+                <li>List Items</li>
+                <li>List Items</li>
+                <li>List Items</li>
+                <li>List Items</li>
+                <li>List Items</li>
+            </ol>
+        </div>
+
+        <div> Unorden list
+            <ul>
+                <li>List Items</li>
+                <li>List Items</li>
+                <li>List Items</li>
+                <li>List Items</li>
+                <li>List Items</li>
+
+            </ul>
+        </div>
+
+        <a href="primeraWeb.html">link interno </a>
+        <!-- Atributos de etiqueta  -->
+        <img src="" alt="" id="" class="">
+    </div><!-- Etiquetas mas usadas -->
+
+</body>
+
+</html>

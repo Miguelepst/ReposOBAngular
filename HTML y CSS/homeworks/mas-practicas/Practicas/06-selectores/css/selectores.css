@@ -1,0 +1,37 @@
+
+/* .p-contenedor {
+    color: rgb(26, 88, 88);
+} */
+
+/* p {
+    color: blue;
+} */
+
+/* .contenedor p { color: blueviolet; }
+
+.contenedor #boton-contenedor{
+    background-color: yellow;
+} */
+
+
+/* para ganar mas precision: */
+
+/* section.main .contenedor p { color: blueviolet; }
+
+.contenedor #boton-contenedor{
+    background-color: yellow;
+}  */
+
+/* De esta manera podemos anidar todo lo que nosotros queramos  */
+
+/* Algo un pocoredundante el body: */
+
+body section.main .contenedor p { color: blueviolet; }
+.contenedor #boton-contenedor{
+    background-color: yellow;
+} 
+
+/* anidacion de selectores 
+ganamos presicion y ahorar mucho codigo 
+*/
+

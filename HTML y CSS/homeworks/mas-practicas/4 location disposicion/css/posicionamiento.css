@@ -1,0 +1,56 @@
+
+/* estos elementos no se pueden ver afectados por el left  */
+div {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+/* Se pposiciona en relacion al posicionamiento original (al estatico) */
+.relative {
+    position:relative ;
+    left: 80px;
+    margin: 10px;
+
+}
+
+/* para poner posiciones fijas */
+/* El trabja por su cuenta, indiferente de como nos movamos */
+/* Suelen estar por encima de todo el contenido */
+.fixed {
+    position: fixed;
+    bottom: 8px; /* que este siempre a abajo de todo */
+    left: 8px;      /* que este siempre a la izquierda de todo */
+    background-color: aquamarine;
+    z-index: 10;            /* si se ve por encima o por debajo */
+}
+
+
+
+.absoluto {
+    position: absolute;
+    background-color: aquamarine;
+    /* top: 0px; */
+    right: 0px;
+    bottom: 30px;
+    
+
+}
+
+.relative.container {
+    width: 300px;
+    height: 400px;
+    background-color: cadetblue;
+}
+
+/* posicionamiento pegajoso */
+/* relatice fixed , al hacer scroll modifica su posicion */
+.sticky {
+position:sticky;
+background-color: coral;
+color: white;
+top: 0px;
+z-index: 11;
+
+}
