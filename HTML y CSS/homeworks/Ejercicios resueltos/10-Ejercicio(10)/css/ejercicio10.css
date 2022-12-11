@@ -1,0 +1,59 @@
+
+
+
+
+/* 
+Implementa las líneas necesarias en el CSS 
+para que cuando el ratón pase 
+por encima del botón 
+ocurra lo siguiente (hover):
+
+El botón se traslade -5px en el eje de las Y
+
+Se añada una sombra
+
+El color de fondo del botón cambie
+
+El color del texto cambie
+
+Todo esto con una transición de 0.4s
+ */
+
+
+ 
+/* 
+linear
+ease
+ease-in
+ease-in-out
+transition: transform 1s cubic-bezier(0.04, 1.42, 0.87,-0.51);
+ */
+
+/* 
+delay de 2 segundos para empezar transformacion::after
+transition: transform 1s ease-in-out 2s ;
+*/
+
+.btn-modern:hover {
+     transform: translateY(-5px); 
+     transition: 0.4s ease-in-out  ;
+     background-color: blueviolet;
+     color: white;
+}
+
+
+@keyframes traslacion {
+    0% {
+        background-color: rgb(132, 132, 39);
+        transform:  translateY(-5px)  ;
+    }
+    
+}
+
+
+/* background-color: blueviolet; */
+    /* margin-top: 5px; */
+    
+     /* transition: background-color 2s, border 2s, box-shadow 2s ;  */
+
+    /* animation: traslacion 4s ease-in-out infinite forwards alternate; *//* animation: traslacion 1s ; */

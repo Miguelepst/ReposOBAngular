@@ -1,0 +1,349 @@
+/* 
+width: ;
+padding: 1(x4), 1 2(x2), 1 2 3 4 ;
+input[type="password"]   Atributo type 
+border: 2ps solid green;
+border-radius: 10px
+margin-button: 10px
+
+border: none;
+border-button:1px solid #c2c2c2  // color clariro 
+outline: none;
+padding: 5px
+color #5f5f5f
+
+:focus {
+border-button:1px solid #5f5f5f
+}
+
+::placeholder {
+    color #c2c2c2;
+
+}
+
+backgroud-color: aquamarina;
+border: none
+border-radius: 5px;
+padding: 5px 10px;
+color: white;
+box-shadow: 0 0 10px #ccc;
+
+
+::placeholder {
+color: #ccc;
+
+}
+
+.input-search {
+    padding: 10px;
+    border: none;
+    backgroud-color: #fff;
+    border-radius: 8px;
+    marging: 10px;
+    background-image: ulr('../img/search.png');
+    background-repeat:no-repeat;
+    background-posicion: 5px ;
+    padding-left:30px;
+}
+
+//text area:
+
+resize: both;
+resize: horizontal;
+resize: none;
+
+//select 
+width: 10px;
+padding:15px;
+background-color: #ccc;
+
+estilos he innovaciones al minimo, sino eres diseñador.
+y replica modelos de diseñadores que veas en la internet.
+
+Esta es una pagina 
+en donde un monton de diseñadores 
+colocan sus diseños 
+
+Hay un monton de posibilidades,  
+de ideas que se nos pueden ocurrir 
+
+OJO: Si sabemos trabajar con CSS
+y tenemos un manejo fluido 
+podemos implementar estos estilos 
+de una manera vastante rapida.
+
+Buquedas en ingles adentro de la pagina.
+https://dribbble.com/signup/new
+
+y aqui tenemos un monton de formularios de loging
+que podemos utilizar.
+
+porque crear un formulario 
+que ya este diseñado por un diseñador 
+cuando puedo utilizar el propio de la pagina:
+
+Sing Up to Dribble
+
+haremos una copia, una replica: 
+ */
+
+/* 
+    Quiero que este en una misma linea: usar display de tipo flex
+  
+
+<!-- Iniciar a dar estilo al sing UP -->
+<!-- trabajamos sobre el container 
+    y le diremos que todo lo que contiene 
+este en: 
+ disposicion flex
+ en colomna
+ quiero que todo este igual. 
+
+ de esta manera estara: 
+ separandolo todo, 
+ y estara distribuyendolo en el eje de las Y (columna).
+
+ en este momento el eje principal 
+ se convierte el de la: Y 
+ (verticak, columna)
+
+ */
+
+/* picture al no tener contenido no se renderiza
+google btn que tenga display flex
+para que rendelice el picture que no tiene contenido
+*/
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+
+
+ * {
+    font-family: 'Ubuntu', sans-serif;
+    
+ }
+
+ html {
+    background-color: #161717; /* modificacion tarea */
+    color: white;
+ }
+ .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+    margin: auto;
+ }
+
+.buttuns {
+    align-self: flex-start;
+    display: flex;
+    gap: 15px;
+}
+
+ .google-btn {
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center; /* eje y */
+    padding-left: 2px;  /* Sobre escribir el que posee por defecto */
+    cursor: pointer;
+ }
+
+ .google-btn:hover {
+    opacity: 0.75;
+ }
+
+ .google-btn picture {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;      
+    align-items: center; /* centrado vertical */
+    justify-content: center; /* centrado horizontal */
+ }
+
+ .google-btn picture img {
+    width: 75%;
+ }
+
+ .google-btn span {
+        color: white;
+        font-weight: 500;
+        padding: 15px;
+ }
+
+ .twiter-btn {
+    color: #bbb;
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .twiter-btn:hover {
+    background-color: #ddd;
+}
+
+.twiter-btn img {
+    width: 75%;
+    filter: grayscale(1);
+}
+
+/* Separador */
+.separator {
+    display: flex;  /* todo en una misma linea */
+    width: 100%;
+    gap: 15px; /* separador entre elementos de 15px */
+}
+
+.separator hr {
+    flex-grow: 1; /*expandido al maximo HR */
+    border: none; /* eparador no tan feo */
+    border-top: 1px solid #ccc;
+}
+
+.separator span {
+color: #8b8b8b;
+}
+
+/* section-inputs */
+.section-inputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span {
+    font-weight: 700;
+}
+
+.section-inputs label input {
+    width: 80%;
+    background-color: #212121;  /* anterior: #F3F3F4; */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 0.816);
+}
+
+
+label input {
+    width: 90%;
+    /* background-color: #F3F3F4; */
+    background-color: #212121;  /* anterior: #F3F3F4; */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 0.816);
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s ;
+}
+
+label input[type="password"]::placeholder {
+    font-size:medium;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+/* efectos */
+label input:hover {
+    /* background-color: white; */
+    background-color:#454045;
+    border: 1px solid #f3f3f478;
+    box-shadow: 0 0 4px #ec58ff40;
+
+/*     border: 1px solid #f3f3f414;
+    box-shadow: 0 0 4px #b0adb0; */
+}
+
+label input:focus {
+    /* background-color: white; */
+    background-color:#454045;
+    border: 1px solid #f3f3f478;
+    box-shadow: 0 0 4px #ec58ff40;
+    /* border: 1px solid #f3f3f414;
+    box-shadow: 0 0 4px #b0adb0; */
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+}
+
+.checkbox-label span {
+    font-weight: 400;
+}
+
+.submit-btn  {
+    background-color: #EA4C89;
+    border: none;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 14pt;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit-btn:hover  {
+    opacity: .75;
+}
+
+.terms-txt  {
+    align-self: flex-start;
+    font-size: smaller;
+}
+
+
+
+/* 
+¿Eliminar el color de fondo de entrada 
+para el autocompletado de Chrome?
+Link:
+https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete */
+
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill{
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.816) ;
+}
+
+
+
