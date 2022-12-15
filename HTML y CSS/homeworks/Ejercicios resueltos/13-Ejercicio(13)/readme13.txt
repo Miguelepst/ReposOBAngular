@@ -25,3 +25,7 @@ Tu nombre en el título
 Una breve descripción
 
 Tu email en el footer
+
+Solución del ejercicio:
+
+https://github.com/Open-Bootcamp/ResolucionEjercicios/tree/main/HTMLyCSS/12-Elementos%20de%20Bootstrap

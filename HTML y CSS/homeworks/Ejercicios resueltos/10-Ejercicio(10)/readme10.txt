@@ -15,3 +15,7 @@ El color de fondo del botón cambie
 El color del texto cambie
 
 Todo esto con una transición de 0.4s
+
+Solución del ejercicio:
+
+https://github.com/Open-Bootcamp/ResolucionEjercicios/tree/main/HTMLyCSS/09-Animaciones%20y%20transiciones%20en%20HTML

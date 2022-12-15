@@ -16,3 +16,6 @@ Enunciado del ejercicio:
   siguiendo las siguientes pautas:
   Cada elemento de la lista tiene que ser un enlace
   El texto del enlace debe ser el título del vídeo
+
+solucuion del ejercicio:
+  https://github.com/Open-Bootcamp/ResolucionEjercicios/tree/main/HTMLyCSS/01-Introduccion

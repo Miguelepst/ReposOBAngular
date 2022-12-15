@@ -18,3 +18,6 @@ El body debe contener una tabla que cumpla las siguientes características
 + Debe tener tres entradas, 
   que corresponderán a tus tres libros favoritos
 
+Resuelto:
+https://github.com/Open-Bootcamp/ResolucionEjercicios/blob/main/HTMLyCSS/02-Formularios%20y%20Tablas/tablas.html
+

@@ -17,3 +17,9 @@ Para viewports MD - cada fila contendrá 3 elementos
 Para viewports LG - cada fila contendrá 4 elementos
 
 Para viewports XL - cada fila contendrá 6 elementos
+
+
+Solución del ejercicio:
+
+https://github.com/Open-Bootcamp/ResolucionEjercicios/blob/main/HTMLyCSS/11-Sistema%20Grid%20en%20Bootstrap/index.html
+

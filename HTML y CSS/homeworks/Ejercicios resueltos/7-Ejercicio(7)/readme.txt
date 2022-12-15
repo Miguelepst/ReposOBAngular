@@ -15,3 +15,5 @@ Crea un botón con el texto "Pasa por encima" (TIP: Este texto debes agregarlo a
 Utiliza las pseudo-clases para que cuando se pase el ratón por encima de este botón, el texto se vuelva blanco y el fondo de color verde
 
 Utiliza los pseudo-elementos para cambiar el texto del botón a "¡Hecho!"
+
+https://github.com/Open-Bootcamp/ResolucionEjercicios/tree/main/HTMLyCSS/06-Selectores%20pseudo-clases%20y%20pseudo-elementos

@@ -16,3 +16,6 @@ con los siguientes parámetros
 
 Las imágenes deben tener 300 píxeles de ancho
 Deben reagruparse (wrap) cuando el ancho del viewport cambia
+
+
+https://github.com/Open-Bootcamp/ResolucionEjercicios/tree/main/HTMLyCSS/05-Disposicion%20en%20CSS

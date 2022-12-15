@@ -18,3 +18,6 @@ Debe contener los siguientes campos:
 +Un campo de área de texto llamado "frase-favorita"
 +Un botón de envío
 +Un botón de reset
+
+resuelto:
+https://github.com/Open-Bootcamp/ResolucionEjercicios/blob/main/HTMLyCSS/02-Formularios%20y%20Tablas/index.html

@@ -22,6 +22,10 @@ El fondo de los inputs cuando se hace hover será del color #454045
 Los textos tendrán un color blanco
 
 
+Solución del ejercicio:
+
+https://github.com/Open-Bootcamp/ResolucionEjercicios/tree/main/HTMLyCSS/07-Estilando%20formularios
+
 
 
 Seccion 7:

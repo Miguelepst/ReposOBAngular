@@ -41,3 +41,6 @@ se muestre de color rojo
 A través del encadenamiento de selectores, 
 haz que el primer elemento de la primera lista 
 + tenga un tamaño de letra de 2rem
+
+
+https://github.com/Open-Bootcamp/ResolucionEjercicios/tree/main/HTMLyCSS/04-Selectores%20y%20precision%20en%20CSS
