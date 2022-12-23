@@ -1,0 +1,16 @@
+{
+  "name": "primer-proyecto",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludar": "Hola mundo node JS",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Miguel Gutierrez",
+  "license": "ISC"
+}

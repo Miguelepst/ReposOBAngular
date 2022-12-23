@@ -1,0 +1,88 @@
+/* Es exatamente igual que CSS */
+.miguel1 {
+  color: red;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(104, 153, 159);
+}
+
+/* es el mas usado  */
+/* en cambio en SASS */
+* /* Elimina las llaves y los puntos y comas */
+.miguel2 {
+  background-color: red;
+}
+
+/* Realmente es exatemante el mismo */
+/* esto se compila exactamente igual que un SCSS  */    
+/* al notener pligind de SASS en el editor VSCODE   */
+.miguel3 {
+  color: aqua;
+}
+
+.btn, .btn-2 {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  color: #2b2b2b;
+}
+.btn:hover, .btn-2:hover {
+  background-color: cyan;
+  color: red;
+  cursor: pointer;
+}
+
+.btn-2 {
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.miguel {
+  background-color: red;
+  color: azure;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: blanchedalmond;
+  min-height: 100vh;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: #f1f1f1;
+}
+
+p {
+  color: #2b2b2b;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: #666666;
+}
+
+.listado {
+  width: 10rem;
+  background-color: aquamarine;
+  padding: 0.5rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  list-style: none;
+}
+.listado ul li:hover {
+  color: white;
+}
+
+/* Este .sas no funciona */
+
+/*# sourceMappingURL=styles.css.map */
